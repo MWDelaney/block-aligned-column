@@ -1,0 +1,21 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-rebel-aligned-column {
+  display: flex !important;
+}
+
+.wp-block-rebel-aligned-column.is-style-align-end {
+  justify-content: flex-end !important;
+}
+
+.wp-block-rebel-aligned-column.is-style-align-start {
+  justify-content: flex-start !important;
+}
+
+.wp-block-rebel-aligned-column.is-style-align-center {
+  justify-content: center !important;
+}
